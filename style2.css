@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.skills-section {
+  margin: 50px auto;
+  padding: 50px;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-title h2 {
+  color: #2b78e4;
+  font-weight: bold;
+}
+
+.skills-title p {
+  color: #777;
+  font-size: 1rem;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-description {
+  width: 35%;
+}
+
+.skills-description h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills-description p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.skills-icons i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #2b78e4;
+}
+
+.skills-bars {
+  width: 60%;
+}
+
+.progress {
+  height: 20px;
+  margin-bottom: 15px;
+  background-color: #e0e0e0;
+}
+
+.progress-bar {
+  height: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.progress-html {
+  width: 70%;
+  background-color: #f16e31;
+}
+
+.progress-css {
+  width: 55%;
+  background-color: #2da8d8;
+}
+
+.progress-js {
+  width: 50%;
+  background-color: #343a40;
+}
+
+.progress-php {
+  width: 40%;
+  background-color: #6c63ff;
+}
+
+.progress-mysql {
+  width: 75%;
+  background-color: #5b5b5b;
+}
+
+.progress-java {
+  width: 80%;
+  background-color: #2cbf6b;
+}
